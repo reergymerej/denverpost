@@ -1,0 +1,20 @@
+{
+  "name": "denverpost",
+  "version": "1.0",
+  "description": "Peek behind the adblock blocker.",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.denverpost.com/*",
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}

@@ -17,3 +17,8 @@ import { decode } from 'denverpost'
 decode('B cboe pg mbshf espoft')
 // 'A band of large drones'
 ```
+
+This is also available through a Chrome extension that will remove all the
+modals, restore scrolling, unblur, and decode after a few seconds automatically.
+
+![demo](http://g.recordit.co/YFdDe3OVP0.gif)
